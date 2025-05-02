@@ -1,6 +1,6 @@
 { pkgs }:
 pkgs.writeScriptBin "generate-authentik" ''
-  ${pkgs.hsPkgs.openapi3-code-generator}/bin/openapi3-code-generator-exe authentik-api.yml \
+  ${pkgs.hsPkgs.openapi3-code-generator}/bin/openapi3-code-generator-exe authentik-api.yaml \
     --force \
     --property-type-suffix="'"\
     --module-name "AuthentikAPI"\
