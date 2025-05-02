@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedLicenseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedLicenseRequest
+instance Show PatchedLicenseRequest
+instance Eq PatchedLicenseRequest
+instance Data.Aeson.FromJSON PatchedLicenseRequest
+instance Data.Aeson.ToJSON PatchedLicenseRequest

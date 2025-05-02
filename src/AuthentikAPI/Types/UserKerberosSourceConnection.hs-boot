@@ -1,0 +1,13 @@
+module AuthentikAPI.Types.UserKerberosSourceConnection where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserKerberosSourceConnection
+instance Show UserKerberosSourceConnection
+instance Eq UserKerberosSourceConnection
+instance Data.Aeson.FromJSON UserKerberosSourceConnection
+instance Data.Aeson.ToJSON UserKerberosSourceConnection
+data UserKerberosSourceConnectionSourceObj'
+instance Show UserKerberosSourceConnectionSourceObj'
+instance Eq UserKerberosSourceConnectionSourceObj'
+instance Data.Aeson.FromJSON UserKerberosSourceConnectionSourceObj'
+instance Data.Aeson.ToJSON UserKerberosSourceConnectionSourceObj'

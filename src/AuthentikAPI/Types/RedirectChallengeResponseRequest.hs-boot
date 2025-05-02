@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.RedirectChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data RedirectChallengeResponseRequest
+instance Show RedirectChallengeResponseRequest
+instance Eq RedirectChallengeResponseRequest
+instance Data.Aeson.FromJSON RedirectChallengeResponseRequest
+instance Data.Aeson.ToJSON RedirectChallengeResponseRequest

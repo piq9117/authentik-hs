@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.CertificateKeyPairRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data CertificateKeyPairRequest
+instance Show CertificateKeyPairRequest
+instance Eq CertificateKeyPairRequest
+instance Data.Aeson.FromJSON CertificateKeyPairRequest
+instance Data.Aeson.ToJSON CertificateKeyPairRequest

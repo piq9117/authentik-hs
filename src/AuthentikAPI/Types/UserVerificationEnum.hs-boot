@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.UserVerificationEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserVerificationEnum
+instance Show UserVerificationEnum
+instance Eq UserVerificationEnum
+instance Data.Aeson.FromJSON UserVerificationEnum
+instance Data.Aeson.ToJSON UserVerificationEnum

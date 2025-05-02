@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.RadiusProviderRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data RadiusProviderRequest
+instance Show RadiusProviderRequest
+instance Eq RadiusProviderRequest
+instance Data.Aeson.FromJSON RadiusProviderRequest
+instance Data.Aeson.ToJSON RadiusProviderRequest

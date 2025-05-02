@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedRACProviderRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedRACProviderRequest
+instance Show PatchedRACProviderRequest
+instance Eq PatchedRACProviderRequest
+instance Data.Aeson.FromJSON PatchedRACProviderRequest
+instance Data.Aeson.ToJSON PatchedRACProviderRequest

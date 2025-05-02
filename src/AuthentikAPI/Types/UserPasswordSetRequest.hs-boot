@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.UserPasswordSetRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserPasswordSetRequest
+instance Show UserPasswordSetRequest
+instance Eq UserPasswordSetRequest
+instance Data.Aeson.FromJSON UserPasswordSetRequest
+instance Data.Aeson.ToJSON UserPasswordSetRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedRedirectStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedRedirectStageRequest
+instance Show PatchedRedirectStageRequest
+instance Eq PatchedRedirectStageRequest
+instance Data.Aeson.FromJSON PatchedRedirectStageRequest
+instance Data.Aeson.ToJSON PatchedRedirectStageRequest

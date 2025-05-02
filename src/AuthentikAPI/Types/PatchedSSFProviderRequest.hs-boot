@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedSSFProviderRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedSSFProviderRequest
+instance Show PatchedSSFProviderRequest
+instance Eq PatchedSSFProviderRequest
+instance Data.Aeson.FromJSON PatchedSSFProviderRequest
+instance Data.Aeson.ToJSON PatchedSSFProviderRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ConsentStageModeEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ConsentStageModeEnum
+instance Show ConsentStageModeEnum
+instance Eq ConsentStageModeEnum
+instance Data.Aeson.FromJSON ConsentStageModeEnum
+instance Data.Aeson.ToJSON ConsentStageModeEnum

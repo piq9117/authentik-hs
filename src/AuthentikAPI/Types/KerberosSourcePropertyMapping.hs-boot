@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.KerberosSourcePropertyMapping where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data KerberosSourcePropertyMapping
+instance Show KerberosSourcePropertyMapping
+instance Eq KerberosSourcePropertyMapping
+instance Data.Aeson.FromJSON KerberosSourcePropertyMapping
+instance Data.Aeson.ToJSON KerberosSourcePropertyMapping

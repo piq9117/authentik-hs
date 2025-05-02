@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.NotificationTransportRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data NotificationTransportRequest
+instance Show NotificationTransportRequest
+instance Eq NotificationTransportRequest
+instance Data.Aeson.FromJSON NotificationTransportRequest
+instance Data.Aeson.ToJSON NotificationTransportRequest

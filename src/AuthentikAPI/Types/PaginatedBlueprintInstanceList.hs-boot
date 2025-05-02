@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedBlueprintInstanceList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedBlueprintInstanceList
+instance Show PaginatedBlueprintInstanceList
+instance Eq PaginatedBlueprintInstanceList
+instance Data.Aeson.FromJSON PaginatedBlueprintInstanceList
+instance Data.Aeson.ToJSON PaginatedBlueprintInstanceList

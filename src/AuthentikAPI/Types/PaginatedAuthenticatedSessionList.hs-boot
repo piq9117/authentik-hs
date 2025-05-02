@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedAuthenticatedSessionList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedAuthenticatedSessionList
+instance Show PaginatedAuthenticatedSessionList
+instance Eq PaginatedAuthenticatedSessionList
+instance Data.Aeson.FromJSON PaginatedAuthenticatedSessionList
+instance Data.Aeson.ToJSON PaginatedAuthenticatedSessionList

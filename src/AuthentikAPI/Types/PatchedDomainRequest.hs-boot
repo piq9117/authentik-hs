@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedDomainRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedDomainRequest
+instance Show PatchedDomainRequest
+instance Eq PatchedDomainRequest
+instance Data.Aeson.FromJSON PatchedDomainRequest
+instance Data.Aeson.ToJSON PatchedDomainRequest

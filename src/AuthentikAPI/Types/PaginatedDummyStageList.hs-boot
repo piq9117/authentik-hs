@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedDummyStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedDummyStageList
+instance Show PaginatedDummyStageList
+instance Eq PaginatedDummyStageList
+instance Data.Aeson.FromJSON PaginatedDummyStageList
+instance Data.Aeson.ToJSON PaginatedDummyStageList

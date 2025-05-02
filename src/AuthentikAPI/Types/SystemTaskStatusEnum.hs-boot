@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.SystemTaskStatusEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data SystemTaskStatusEnum
+instance Show SystemTaskStatusEnum
+instance Eq SystemTaskStatusEnum
+instance Data.Aeson.FromJSON SystemTaskStatusEnum
+instance Data.Aeson.ToJSON SystemTaskStatusEnum

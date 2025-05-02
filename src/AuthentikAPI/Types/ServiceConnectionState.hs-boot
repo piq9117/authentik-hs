@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ServiceConnectionState where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ServiceConnectionState
+instance Show ServiceConnectionState
+instance Eq ServiceConnectionState
+instance Data.Aeson.FromJSON ServiceConnectionState
+instance Data.Aeson.ToJSON ServiceConnectionState

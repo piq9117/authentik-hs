@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.CaptchaChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data CaptchaChallengeResponseRequest
+instance Show CaptchaChallengeResponseRequest
+instance Eq CaptchaChallengeResponseRequest
+instance Data.Aeson.FromJSON CaptchaChallengeResponseRequest
+instance Data.Aeson.ToJSON CaptchaChallengeResponseRequest

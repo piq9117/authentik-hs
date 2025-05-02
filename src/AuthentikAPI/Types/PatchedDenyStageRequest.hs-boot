@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedDenyStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedDenyStageRequest
+instance Show PatchedDenyStageRequest
+instance Eq PatchedDenyStageRequest
+instance Data.Aeson.FromJSON PatchedDenyStageRequest
+instance Data.Aeson.ToJSON PatchedDenyStageRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedReputationPolicyList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedReputationPolicyList
+instance Show PaginatedReputationPolicyList
+instance Eq PaginatedReputationPolicyList
+instance Data.Aeson.FromJSON PaginatedReputationPolicyList
+instance Data.Aeson.ToJSON PaginatedReputationPolicyList

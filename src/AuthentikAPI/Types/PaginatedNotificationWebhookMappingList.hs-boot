@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedNotificationWebhookMappingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedNotificationWebhookMappingList
+instance Show PaginatedNotificationWebhookMappingList
+instance Eq PaginatedNotificationWebhookMappingList
+instance Data.Aeson.FromJSON PaginatedNotificationWebhookMappingList
+instance Data.Aeson.ToJSON PaginatedNotificationWebhookMappingList

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.WebAuthnDeviceRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data WebAuthnDeviceRequest
+instance Show WebAuthnDeviceRequest
+instance Eq WebAuthnDeviceRequest
+instance Data.Aeson.FromJSON WebAuthnDeviceRequest
+instance Data.Aeson.ToJSON WebAuthnDeviceRequest

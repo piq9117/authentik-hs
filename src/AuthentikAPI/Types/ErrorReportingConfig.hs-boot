@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ErrorReportingConfig where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ErrorReportingConfig
+instance Show ErrorReportingConfig
+instance Eq ErrorReportingConfig
+instance Data.Aeson.FromJSON ErrorReportingConfig
+instance Data.Aeson.ToJSON ErrorReportingConfig

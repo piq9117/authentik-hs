@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedGroupSAMLSourceConnectionRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedGroupSAMLSourceConnectionRequest
+instance Show PatchedGroupSAMLSourceConnectionRequest
+instance Eq PatchedGroupSAMLSourceConnectionRequest
+instance Data.Aeson.FromJSON PatchedGroupSAMLSourceConnectionRequest
+instance Data.Aeson.ToJSON PatchedGroupSAMLSourceConnectionRequest

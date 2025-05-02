@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.UserCreationModeEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserCreationModeEnum
+instance Show UserCreationModeEnum
+instance Eq UserCreationModeEnum
+instance Data.Aeson.FromJSON UserCreationModeEnum
+instance Data.Aeson.ToJSON UserCreationModeEnum

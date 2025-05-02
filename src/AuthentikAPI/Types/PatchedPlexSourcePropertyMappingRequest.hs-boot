@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedPlexSourcePropertyMappingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedPlexSourcePropertyMappingRequest
+instance Show PatchedPlexSourcePropertyMappingRequest
+instance Eq PatchedPlexSourcePropertyMappingRequest
+instance Data.Aeson.FromJSON PatchedPlexSourcePropertyMappingRequest
+instance Data.Aeson.ToJSON PatchedPlexSourcePropertyMappingRequest

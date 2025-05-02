@@ -33,6 +33,7 @@
         let
           pkgs = nixpkgsFor.${system};
           generate-authentik = import ./nix/generate-authentik.nix { inherit pkgs; };
+          fetch-schema = import ./nix/fetch-schema.nix { inherit pkgs; };
           libs = with pkgs; [
             zlib
           ];
@@ -50,6 +51,7 @@
               hsPkgs.cabal-fmt
               init-project
               generate-authentik
+              fetch-schema
             ] ++ libs;
             shellHook = "export PS1='[$PWD]\n❄ '";
             LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath libs;

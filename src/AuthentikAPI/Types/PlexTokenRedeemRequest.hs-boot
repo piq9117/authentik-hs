@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PlexTokenRedeemRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PlexTokenRedeemRequest
+instance Show PlexTokenRedeemRequest
+instance Eq PlexTokenRedeemRequest
+instance Data.Aeson.FromJSON PlexTokenRedeemRequest
+instance Data.Aeson.ToJSON PlexTokenRedeemRequest

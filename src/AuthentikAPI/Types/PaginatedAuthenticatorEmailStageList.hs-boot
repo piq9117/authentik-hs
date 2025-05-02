@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedAuthenticatorEmailStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedAuthenticatorEmailStageList
+instance Show PaginatedAuthenticatorEmailStageList
+instance Eq PaginatedAuthenticatorEmailStageList
+instance Data.Aeson.FromJSON PaginatedAuthenticatorEmailStageList
+instance Data.Aeson.ToJSON PaginatedAuthenticatorEmailStageList

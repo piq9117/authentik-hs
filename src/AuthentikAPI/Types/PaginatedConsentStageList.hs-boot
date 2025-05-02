@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedConsentStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedConsentStageList
+instance Show PaginatedConsentStageList
+instance Eq PaginatedConsentStageList
+instance Data.Aeson.FromJSON PaginatedConsentStageList
+instance Data.Aeson.ToJSON PaginatedConsentStageList

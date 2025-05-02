@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedExpiringBaseGrantModelList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedExpiringBaseGrantModelList
+instance Show PaginatedExpiringBaseGrantModelList
+instance Eq PaginatedExpiringBaseGrantModelList
+instance Data.Aeson.FromJSON PaginatedExpiringBaseGrantModelList
+instance Data.Aeson.ToJSON PaginatedExpiringBaseGrantModelList

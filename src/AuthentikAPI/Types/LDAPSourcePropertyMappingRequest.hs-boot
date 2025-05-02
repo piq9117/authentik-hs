@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.LDAPSourcePropertyMappingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data LDAPSourcePropertyMappingRequest
+instance Show LDAPSourcePropertyMappingRequest
+instance Eq LDAPSourcePropertyMappingRequest
+instance Data.Aeson.FromJSON LDAPSourcePropertyMappingRequest
+instance Data.Aeson.ToJSON LDAPSourcePropertyMappingRequest

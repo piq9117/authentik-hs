@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.SCIMSourceGroupRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data SCIMSourceGroupRequest
+instance Show SCIMSourceGroupRequest
+instance Eq SCIMSourceGroupRequest
+instance Data.Aeson.FromJSON SCIMSourceGroupRequest
+instance Data.Aeson.ToJSON SCIMSourceGroupRequest

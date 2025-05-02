@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedDummyStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedDummyStageRequest
+instance Show PatchedDummyStageRequest
+instance Eq PatchedDummyStageRequest
+instance Data.Aeson.FromJSON PatchedDummyStageRequest
+instance Data.Aeson.ToJSON PatchedDummyStageRequest

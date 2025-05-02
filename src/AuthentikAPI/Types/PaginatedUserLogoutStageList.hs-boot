@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedUserLogoutStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedUserLogoutStageList
+instance Show PaginatedUserLogoutStageList
+instance Eq PaginatedUserLogoutStageList
+instance Data.Aeson.FromJSON PaginatedUserLogoutStageList
+instance Data.Aeson.ToJSON PaginatedUserLogoutStageList

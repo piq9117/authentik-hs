@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.KerberosSourceRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data KerberosSourceRequest
+instance Show KerberosSourceRequest
+instance Eq KerberosSourceRequest
+instance Data.Aeson.FromJSON KerberosSourceRequest
+instance Data.Aeson.ToJSON KerberosSourceRequest

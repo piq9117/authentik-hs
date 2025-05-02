@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.AuthenticatorWebAuthnChallenge where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AuthenticatorWebAuthnChallenge
+instance Show AuthenticatorWebAuthnChallenge
+instance Eq AuthenticatorWebAuthnChallenge
+instance Data.Aeson.FromJSON AuthenticatorWebAuthnChallenge
+instance Data.Aeson.ToJSON AuthenticatorWebAuthnChallenge

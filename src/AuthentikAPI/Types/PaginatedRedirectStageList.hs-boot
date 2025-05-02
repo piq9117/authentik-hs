@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedRedirectStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedRedirectStageList
+instance Show PaginatedRedirectStageList
+instance Eq PaginatedRedirectStageList
+instance Data.Aeson.FromJSON PaginatedRedirectStageList
+instance Data.Aeson.ToJSON PaginatedRedirectStageList

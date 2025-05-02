@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PromptChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PromptChallengeResponseRequest
+instance Show PromptChallengeResponseRequest
+instance Eq PromptChallengeResponseRequest
+instance Data.Aeson.FromJSON PromptChallengeResponseRequest
+instance Data.Aeson.ToJSON PromptChallengeResponseRequest

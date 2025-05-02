@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.GoogleWorkspaceProviderRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data GoogleWorkspaceProviderRequest
+instance Show GoogleWorkspaceProviderRequest
+instance Eq GoogleWorkspaceProviderRequest
+instance Data.Aeson.FromJSON GoogleWorkspaceProviderRequest
+instance Data.Aeson.ToJSON GoogleWorkspaceProviderRequest

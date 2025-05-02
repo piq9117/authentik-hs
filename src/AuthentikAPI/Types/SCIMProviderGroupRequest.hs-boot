@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.SCIMProviderGroupRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data SCIMProviderGroupRequest
+instance Show SCIMProviderGroupRequest
+instance Eq SCIMProviderGroupRequest
+instance Data.Aeson.FromJSON SCIMProviderGroupRequest
+instance Data.Aeson.ToJSON SCIMProviderGroupRequest

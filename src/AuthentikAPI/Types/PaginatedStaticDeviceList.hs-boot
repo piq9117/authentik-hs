@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedStaticDeviceList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedStaticDeviceList
+instance Show PaginatedStaticDeviceList
+instance Eq PaginatedStaticDeviceList
+instance Data.Aeson.FromJSON PaginatedStaticDeviceList
+instance Data.Aeson.ToJSON PaginatedStaticDeviceList

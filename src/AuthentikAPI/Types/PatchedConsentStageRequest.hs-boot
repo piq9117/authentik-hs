@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedConsentStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedConsentStageRequest
+instance Show PatchedConsentStageRequest
+instance Eq PatchedConsentStageRequest
+instance Data.Aeson.FromJSON PatchedConsentStageRequest
+instance Data.Aeson.ToJSON PatchedConsentStageRequest

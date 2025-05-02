@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.BlueprintInstanceRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data BlueprintInstanceRequest
+instance Show BlueprintInstanceRequest
+instance Eq BlueprintInstanceRequest
+instance Data.Aeson.FromJSON BlueprintInstanceRequest
+instance Data.Aeson.ToJSON BlueprintInstanceRequest

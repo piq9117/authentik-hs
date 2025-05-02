@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PlexAuthenticationChallenge where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PlexAuthenticationChallenge
+instance Show PlexAuthenticationChallenge
+instance Eq PlexAuthenticationChallenge
+instance Data.Aeson.FromJSON PlexAuthenticationChallenge
+instance Data.Aeson.ToJSON PlexAuthenticationChallenge

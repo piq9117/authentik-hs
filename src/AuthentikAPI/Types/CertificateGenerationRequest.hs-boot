@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.CertificateGenerationRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data CertificateGenerationRequest
+instance Show CertificateGenerationRequest
+instance Eq CertificateGenerationRequest
+instance Data.Aeson.FromJSON CertificateGenerationRequest
+instance Data.Aeson.ToJSON CertificateGenerationRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ApplicationEntitlement where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ApplicationEntitlement
+instance Show ApplicationEntitlement
+instance Eq ApplicationEntitlement
+instance Data.Aeson.FromJSON ApplicationEntitlement
+instance Data.Aeson.ToJSON ApplicationEntitlement

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.AuthenticatorDuoStageManualDeviceImportRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AuthenticatorDuoStageManualDeviceImportRequest
+instance Show AuthenticatorDuoStageManualDeviceImportRequest
+instance Eq AuthenticatorDuoStageManualDeviceImportRequest
+instance Data.Aeson.FromJSON AuthenticatorDuoStageManualDeviceImportRequest
+instance Data.Aeson.ToJSON AuthenticatorDuoStageManualDeviceImportRequest

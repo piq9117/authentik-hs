@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.SignatureAlgorithmEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data SignatureAlgorithmEnum
+instance Show SignatureAlgorithmEnum
+instance Eq SignatureAlgorithmEnum
+instance Data.Aeson.FromJSON SignatureAlgorithmEnum
+instance Data.Aeson.ToJSON SignatureAlgorithmEnum

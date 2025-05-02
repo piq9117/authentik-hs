@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedSSFStreamList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedSSFStreamList
+instance Show PaginatedSSFStreamList
+instance Eq PaginatedSSFStreamList
+instance Data.Aeson.FromJSON PaginatedSSFStreamList
+instance Data.Aeson.ToJSON PaginatedSSFStreamList

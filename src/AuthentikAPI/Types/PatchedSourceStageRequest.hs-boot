@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedSourceStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedSourceStageRequest
+instance Show PatchedSourceStageRequest
+instance Eq PatchedSourceStageRequest
+instance Data.Aeson.FromJSON PatchedSourceStageRequest
+instance Data.Aeson.ToJSON PatchedSourceStageRequest

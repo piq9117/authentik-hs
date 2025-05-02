@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.AutoSubmitChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AutoSubmitChallengeResponseRequest
+instance Show AutoSubmitChallengeResponseRequest
+instance Eq AutoSubmitChallengeResponseRequest
+instance Data.Aeson.FromJSON AutoSubmitChallengeResponseRequest
+instance Data.Aeson.ToJSON AutoSubmitChallengeResponseRequest

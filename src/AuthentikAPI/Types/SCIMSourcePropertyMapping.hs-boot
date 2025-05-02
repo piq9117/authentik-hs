@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.SCIMSourcePropertyMapping where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data SCIMSourcePropertyMapping
+instance Show SCIMSourcePropertyMapping
+instance Eq SCIMSourcePropertyMapping
+instance Data.Aeson.FromJSON SCIMSourcePropertyMapping
+instance Data.Aeson.ToJSON SCIMSourcePropertyMapping

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedInvitationStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedInvitationStageList
+instance Show PaginatedInvitationStageList
+instance Eq PaginatedInvitationStageList
+instance Data.Aeson.FromJSON PaginatedInvitationStageList
+instance Data.Aeson.ToJSON PaginatedInvitationStageList

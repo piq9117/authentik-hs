@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedTenantRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedTenantRequest
+instance Show PatchedTenantRequest
+instance Eq PatchedTenantRequest
+instance Data.Aeson.FromJSON PatchedTenantRequest
+instance Data.Aeson.ToJSON PatchedTenantRequest

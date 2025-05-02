@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.GroupLDAPSourceConnectionRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data GroupLDAPSourceConnectionRequest
+instance Show GroupLDAPSourceConnectionRequest
+instance Eq GroupLDAPSourceConnectionRequest
+instance Data.Aeson.FromJSON GroupLDAPSourceConnectionRequest
+instance Data.Aeson.ToJSON GroupLDAPSourceConnectionRequest

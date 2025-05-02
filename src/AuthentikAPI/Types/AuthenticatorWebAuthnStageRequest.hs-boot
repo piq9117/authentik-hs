@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.AuthenticatorWebAuthnStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AuthenticatorWebAuthnStageRequest
+instance Show AuthenticatorWebAuthnStageRequest
+instance Eq AuthenticatorWebAuthnStageRequest
+instance Data.Aeson.FromJSON AuthenticatorWebAuthnStageRequest
+instance Data.Aeson.ToJSON AuthenticatorWebAuthnStageRequest

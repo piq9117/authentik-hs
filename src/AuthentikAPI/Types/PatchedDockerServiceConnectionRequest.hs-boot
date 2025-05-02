@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedDockerServiceConnectionRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedDockerServiceConnectionRequest
+instance Show PatchedDockerServiceConnectionRequest
+instance Eq PatchedDockerServiceConnectionRequest
+instance Data.Aeson.FromJSON PatchedDockerServiceConnectionRequest
+instance Data.Aeson.ToJSON PatchedDockerServiceConnectionRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedSMSDeviceList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedSMSDeviceList
+instance Show PaginatedSMSDeviceList
+instance Eq PaginatedSMSDeviceList
+instance Data.Aeson.FromJSON PaginatedSMSDeviceList
+instance Data.Aeson.ToJSON PaginatedSMSDeviceList

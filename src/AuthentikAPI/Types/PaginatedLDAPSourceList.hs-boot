@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedLDAPSourceList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedLDAPSourceList
+instance Show PaginatedLDAPSourceList
+instance Eq PaginatedLDAPSourceList
+instance Data.Aeson.FromJSON PaginatedLDAPSourceList
+instance Data.Aeson.ToJSON PaginatedLDAPSourceList

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.IdentificationStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data IdentificationStageRequest
+instance Show IdentificationStageRequest
+instance Eq IdentificationStageRequest
+instance Data.Aeson.FromJSON IdentificationStageRequest
+instance Data.Aeson.ToJSON IdentificationStageRequest

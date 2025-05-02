@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedApplicationRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedApplicationRequest
+instance Show PatchedApplicationRequest
+instance Eq PatchedApplicationRequest
+instance Data.Aeson.FromJSON PatchedApplicationRequest
+instance Data.Aeson.ToJSON PatchedApplicationRequest

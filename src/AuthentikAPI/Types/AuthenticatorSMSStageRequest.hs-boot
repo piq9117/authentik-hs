@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.AuthenticatorSMSStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AuthenticatorSMSStageRequest
+instance Show AuthenticatorSMSStageRequest
+instance Eq AuthenticatorSMSStageRequest
+instance Data.Aeson.FromJSON AuthenticatorSMSStageRequest
+instance Data.Aeson.ToJSON AuthenticatorSMSStageRequest

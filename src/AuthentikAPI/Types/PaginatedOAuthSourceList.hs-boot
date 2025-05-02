@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedOAuthSourceList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedOAuthSourceList
+instance Show PaginatedOAuthSourceList
+instance Eq PaginatedOAuthSourceList
+instance Data.Aeson.FromJSON PaginatedOAuthSourceList
+instance Data.Aeson.ToJSON PaginatedOAuthSourceList

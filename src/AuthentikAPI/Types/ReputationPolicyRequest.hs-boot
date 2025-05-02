@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ReputationPolicyRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ReputationPolicyRequest
+instance Show ReputationPolicyRequest
+instance Eq ReputationPolicyRequest
+instance Data.Aeson.FromJSON ReputationPolicyRequest
+instance Data.Aeson.ToJSON ReputationPolicyRequest

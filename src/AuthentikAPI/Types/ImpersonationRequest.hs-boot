@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ImpersonationRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ImpersonationRequest
+instance Show ImpersonationRequest
+instance Eq ImpersonationRequest
+instance Data.Aeson.FromJSON ImpersonationRequest
+instance Data.Aeson.ToJSON ImpersonationRequest

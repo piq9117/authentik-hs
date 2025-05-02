@@ -1,0 +1,13 @@
+module AuthentikAPI.Types.GroupSourceConnection where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data GroupSourceConnection
+instance Show GroupSourceConnection
+instance Eq GroupSourceConnection
+instance Data.Aeson.FromJSON GroupSourceConnection
+instance Data.Aeson.ToJSON GroupSourceConnection
+data GroupSourceConnectionSourceObj'
+instance Show GroupSourceConnectionSourceObj'
+instance Eq GroupSourceConnectionSourceObj'
+instance Data.Aeson.FromJSON GroupSourceConnectionSourceObj'
+instance Data.Aeson.ToJSON GroupSourceConnectionSourceObj'

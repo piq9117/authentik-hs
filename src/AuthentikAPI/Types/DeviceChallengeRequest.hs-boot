@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.DeviceChallengeRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data DeviceChallengeRequest
+instance Show DeviceChallengeRequest
+instance Eq DeviceChallengeRequest
+instance Data.Aeson.FromJSON DeviceChallengeRequest
+instance Data.Aeson.ToJSON DeviceChallengeRequest

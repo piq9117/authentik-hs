@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.DummyChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data DummyChallengeResponseRequest
+instance Show DummyChallengeResponseRequest
+instance Eq DummyChallengeResponseRequest
+instance Data.Aeson.FromJSON DummyChallengeResponseRequest
+instance Data.Aeson.ToJSON DummyChallengeResponseRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedNotificationRuleList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedNotificationRuleList
+instance Show PaginatedNotificationRuleList
+instance Eq PaginatedNotificationRuleList
+instance Data.Aeson.FromJSON PaginatedNotificationRuleList
+instance Data.Aeson.ToJSON PaginatedNotificationRuleList

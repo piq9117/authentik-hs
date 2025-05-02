@@ -1,0 +1,13 @@
+module AuthentikAPI.Types.UserLDAPSourceConnection where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserLDAPSourceConnection
+instance Show UserLDAPSourceConnection
+instance Eq UserLDAPSourceConnection
+instance Data.Aeson.FromJSON UserLDAPSourceConnection
+instance Data.Aeson.ToJSON UserLDAPSourceConnection
+data UserLDAPSourceConnectionSourceObj'
+instance Show UserLDAPSourceConnectionSourceObj'
+instance Eq UserLDAPSourceConnectionSourceObj'
+instance Data.Aeson.FromJSON UserLDAPSourceConnectionSourceObj'
+instance Data.Aeson.ToJSON UserLDAPSourceConnectionSourceObj'

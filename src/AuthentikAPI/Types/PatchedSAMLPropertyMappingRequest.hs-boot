@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedSAMLPropertyMappingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedSAMLPropertyMappingRequest
+instance Show PatchedSAMLPropertyMappingRequest
+instance Eq PatchedSAMLPropertyMappingRequest
+instance Data.Aeson.FromJSON PatchedSAMLPropertyMappingRequest
+instance Data.Aeson.ToJSON PatchedSAMLPropertyMappingRequest

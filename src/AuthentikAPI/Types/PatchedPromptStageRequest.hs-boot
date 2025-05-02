@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedPromptStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedPromptStageRequest
+instance Show PatchedPromptStageRequest
+instance Eq PatchedPromptStageRequest
+instance Data.Aeson.FromJSON PatchedPromptStageRequest
+instance Data.Aeson.ToJSON PatchedPromptStageRequest

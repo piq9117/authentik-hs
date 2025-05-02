@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedRACProviderList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedRACProviderList
+instance Show PaginatedRACProviderList
+instance Eq PaginatedRACProviderList
+instance Data.Aeson.FromJSON PaginatedRACProviderList
+instance Data.Aeson.ToJSON PaginatedRACProviderList

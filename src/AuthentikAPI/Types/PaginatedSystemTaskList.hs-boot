@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedSystemTaskList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedSystemTaskList
+instance Show PaginatedSystemTaskList
+instance Eq PaginatedSystemTaskList
+instance Data.Aeson.FromJSON PaginatedSystemTaskList
+instance Data.Aeson.ToJSON PaginatedSystemTaskList

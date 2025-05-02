@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedUserDeleteStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedUserDeleteStageList
+instance Show PaginatedUserDeleteStageList
+instance Eq PaginatedUserDeleteStageList
+instance Data.Aeson.FromJSON PaginatedUserDeleteStageList
+instance Data.Aeson.ToJSON PaginatedUserDeleteStageList

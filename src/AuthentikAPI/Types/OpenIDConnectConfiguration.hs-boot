@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.OpenIDConnectConfiguration where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data OpenIDConnectConfiguration
+instance Show OpenIDConnectConfiguration
+instance Eq OpenIDConnectConfiguration
+instance Data.Aeson.FromJSON OpenIDConnectConfiguration
+instance Data.Aeson.ToJSON OpenIDConnectConfiguration

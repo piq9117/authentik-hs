@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedMicrosoftEntraProviderUserList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedMicrosoftEntraProviderUserList
+instance Show PaginatedMicrosoftEntraProviderUserList
+instance Eq PaginatedMicrosoftEntraProviderUserList
+instance Data.Aeson.FromJSON PaginatedMicrosoftEntraProviderUserList
+instance Data.Aeson.ToJSON PaginatedMicrosoftEntraProviderUserList

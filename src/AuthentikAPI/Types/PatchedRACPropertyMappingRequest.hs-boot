@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedRACPropertyMappingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedRACPropertyMappingRequest
+instance Show PatchedRACPropertyMappingRequest
+instance Eq PatchedRACPropertyMappingRequest
+instance Data.Aeson.FromJSON PatchedRACPropertyMappingRequest
+instance Data.Aeson.ToJSON PatchedRACPropertyMappingRequest

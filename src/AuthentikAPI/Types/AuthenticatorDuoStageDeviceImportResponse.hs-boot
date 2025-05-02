@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.AuthenticatorDuoStageDeviceImportResponse where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AuthenticatorDuoStageDeviceImportResponse
+instance Show AuthenticatorDuoStageDeviceImportResponse
+instance Eq AuthenticatorDuoStageDeviceImportResponse
+instance Data.Aeson.FromJSON AuthenticatorDuoStageDeviceImportResponse
+instance Data.Aeson.ToJSON AuthenticatorDuoStageDeviceImportResponse

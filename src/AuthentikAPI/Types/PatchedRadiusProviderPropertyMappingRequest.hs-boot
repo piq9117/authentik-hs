@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedRadiusProviderPropertyMappingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedRadiusProviderPropertyMappingRequest
+instance Show PatchedRadiusProviderPropertyMappingRequest
+instance Eq PatchedRadiusProviderPropertyMappingRequest
+instance Data.Aeson.FromJSON PatchedRadiusProviderPropertyMappingRequest
+instance Data.Aeson.ToJSON PatchedRadiusProviderPropertyMappingRequest

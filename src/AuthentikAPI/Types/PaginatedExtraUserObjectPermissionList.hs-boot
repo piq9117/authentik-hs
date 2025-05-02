@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedExtraUserObjectPermissionList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedExtraUserObjectPermissionList
+instance Show PaginatedExtraUserObjectPermissionList
+instance Eq PaginatedExtraUserObjectPermissionList
+instance Data.Aeson.FromJSON PaginatedExtraUserObjectPermissionList
+instance Data.Aeson.ToJSON PaginatedExtraUserObjectPermissionList

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedExtraUserObjectPermissionRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedExtraUserObjectPermissionRequest
+instance Show PatchedExtraUserObjectPermissionRequest
+instance Eq PatchedExtraUserObjectPermissionRequest
+instance Data.Aeson.FromJSON PatchedExtraUserObjectPermissionRequest
+instance Data.Aeson.ToJSON PatchedExtraUserObjectPermissionRequest

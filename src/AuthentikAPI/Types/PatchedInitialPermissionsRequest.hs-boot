@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedInitialPermissionsRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedInitialPermissionsRequest
+instance Show PatchedInitialPermissionsRequest
+instance Eq PatchedInitialPermissionsRequest
+instance Data.Aeson.FromJSON PatchedInitialPermissionsRequest
+instance Data.Aeson.ToJSON PatchedInitialPermissionsRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.AuthenticatorEmailChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AuthenticatorEmailChallengeResponseRequest
+instance Show AuthenticatorEmailChallengeResponseRequest
+instance Eq AuthenticatorEmailChallengeResponseRequest
+instance Data.Aeson.FromJSON AuthenticatorEmailChallengeResponseRequest
+instance Data.Aeson.ToJSON AuthenticatorEmailChallengeResponseRequest

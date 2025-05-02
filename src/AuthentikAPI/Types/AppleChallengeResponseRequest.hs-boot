@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.AppleChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AppleChallengeResponseRequest
+instance Show AppleChallengeResponseRequest
+instance Eq AppleChallengeResponseRequest
+instance Data.Aeson.FromJSON AppleChallengeResponseRequest
+instance Data.Aeson.ToJSON AppleChallengeResponseRequest

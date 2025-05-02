@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedRadiusProviderList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedRadiusProviderList
+instance Show PaginatedRadiusProviderList
+instance Eq PaginatedRadiusProviderList
+instance Data.Aeson.FromJSON PaginatedRadiusProviderList
+instance Data.Aeson.ToJSON PaginatedRadiusProviderList

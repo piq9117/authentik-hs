@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedBlueprintInstanceRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedBlueprintInstanceRequest
+instance Show PatchedBlueprintInstanceRequest
+instance Eq PatchedBlueprintInstanceRequest
+instance Data.Aeson.FromJSON PatchedBlueprintInstanceRequest
+instance Data.Aeson.ToJSON PatchedBlueprintInstanceRequest

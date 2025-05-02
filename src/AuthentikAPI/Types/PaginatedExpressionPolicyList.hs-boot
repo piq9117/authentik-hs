@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedExpressionPolicyList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedExpressionPolicyList
+instance Show PaginatedExpressionPolicyList
+instance Eq PaginatedExpressionPolicyList
+instance Data.Aeson.FromJSON PaginatedExpressionPolicyList
+instance Data.Aeson.ToJSON PaginatedExpressionPolicyList

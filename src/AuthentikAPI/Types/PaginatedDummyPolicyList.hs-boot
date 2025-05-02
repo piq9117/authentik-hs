@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedDummyPolicyList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedDummyPolicyList
+instance Show PaginatedDummyPolicyList
+instance Eq PaginatedDummyPolicyList
+instance Data.Aeson.FromJSON PaginatedDummyPolicyList
+instance Data.Aeson.ToJSON PaginatedDummyPolicyList

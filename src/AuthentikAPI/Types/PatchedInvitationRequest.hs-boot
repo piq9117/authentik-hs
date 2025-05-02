@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedInvitationRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedInvitationRequest
+instance Show PatchedInvitationRequest
+instance Eq PatchedInvitationRequest
+instance Data.Aeson.FromJSON PatchedInvitationRequest
+instance Data.Aeson.ToJSON PatchedInvitationRequest

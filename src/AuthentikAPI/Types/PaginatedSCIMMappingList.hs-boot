@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedSCIMMappingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedSCIMMappingList
+instance Show PaginatedSCIMMappingList
+instance Eq PaginatedSCIMMappingList
+instance Data.Aeson.FromJSON PaginatedSCIMMappingList
+instance Data.Aeson.ToJSON PaginatedSCIMMappingList

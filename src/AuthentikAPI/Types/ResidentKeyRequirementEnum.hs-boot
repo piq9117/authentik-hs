@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ResidentKeyRequirementEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ResidentKeyRequirementEnum
+instance Show ResidentKeyRequirementEnum
+instance Eq ResidentKeyRequirementEnum
+instance Data.Aeson.FromJSON ResidentKeyRequirementEnum
+instance Data.Aeson.ToJSON ResidentKeyRequirementEnum

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedSCIMSourceList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedSCIMSourceList
+instance Show PaginatedSCIMSourceList
+instance Eq PaginatedSCIMSourceList
+instance Data.Aeson.FromJSON PaginatedSCIMSourceList
+instance Data.Aeson.ToJSON PaginatedSCIMSourceList

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.AuthenticatorTOTPChallenge where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AuthenticatorTOTPChallenge
+instance Show AuthenticatorTOTPChallenge
+instance Eq AuthenticatorTOTPChallenge
+instance Data.Aeson.FromJSON AuthenticatorTOTPChallenge
+instance Data.Aeson.ToJSON AuthenticatorTOTPChallenge

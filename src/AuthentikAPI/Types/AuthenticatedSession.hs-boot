@@ -1,0 +1,38 @@
+module AuthentikAPI.Types.AuthenticatedSession where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data AuthenticatedSession
+instance Show AuthenticatedSession
+instance Eq AuthenticatedSession
+instance Data.Aeson.FromJSON AuthenticatedSession
+instance Data.Aeson.ToJSON AuthenticatedSession
+data AuthenticatedSessionAsn'NonNullable
+instance Show AuthenticatedSessionAsn'NonNullable
+instance Eq AuthenticatedSessionAsn'NonNullable
+instance Data.Aeson.FromJSON AuthenticatedSessionAsn'NonNullable
+instance Data.Aeson.ToJSON AuthenticatedSessionAsn'NonNullable
+data AuthenticatedSessionGeoIp'NonNullable
+instance Show AuthenticatedSessionGeoIp'NonNullable
+instance Eq AuthenticatedSessionGeoIp'NonNullable
+instance Data.Aeson.FromJSON AuthenticatedSessionGeoIp'NonNullable
+instance Data.Aeson.ToJSON AuthenticatedSessionGeoIp'NonNullable
+data AuthenticatedSessionUserAgent'
+instance Show AuthenticatedSessionUserAgent'
+instance Eq AuthenticatedSessionUserAgent'
+instance Data.Aeson.FromJSON AuthenticatedSessionUserAgent'
+instance Data.Aeson.ToJSON AuthenticatedSessionUserAgent'
+data AuthenticatedSessionUserAgent'Device'
+instance Show AuthenticatedSessionUserAgent'Device'
+instance Eq AuthenticatedSessionUserAgent'Device'
+instance Data.Aeson.FromJSON AuthenticatedSessionUserAgent'Device'
+instance Data.Aeson.ToJSON AuthenticatedSessionUserAgent'Device'
+data AuthenticatedSessionUserAgent'Os'
+instance Show AuthenticatedSessionUserAgent'Os'
+instance Eq AuthenticatedSessionUserAgent'Os'
+instance Data.Aeson.FromJSON AuthenticatedSessionUserAgent'Os'
+instance Data.Aeson.ToJSON AuthenticatedSessionUserAgent'Os'
+data AuthenticatedSessionUserAgent'UserAgent'
+instance Show AuthenticatedSessionUserAgent'UserAgent'
+instance Eq AuthenticatedSessionUserAgent'UserAgent'
+instance Data.Aeson.FromJSON AuthenticatedSessionUserAgent'UserAgent'
+instance Data.Aeson.ToJSON AuthenticatedSessionUserAgent'UserAgent'

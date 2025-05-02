@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.MicrosoftEntraProvider where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data MicrosoftEntraProvider
+instance Show MicrosoftEntraProvider
+instance Eq MicrosoftEntraProvider
+instance Data.Aeson.FromJSON MicrosoftEntraProvider
+instance Data.Aeson.ToJSON MicrosoftEntraProvider

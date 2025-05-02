@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedPlexSourcePropertyMappingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedPlexSourcePropertyMappingList
+instance Show PaginatedPlexSourcePropertyMappingList
+instance Eq PaginatedPlexSourcePropertyMappingList
+instance Data.Aeson.FromJSON PaginatedPlexSourcePropertyMappingList
+instance Data.Aeson.ToJSON PaginatedPlexSourcePropertyMappingList

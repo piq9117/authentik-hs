@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PropertyMappingPreview where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PropertyMappingPreview
+instance Show PropertyMappingPreview
+instance Eq PropertyMappingPreview
+instance Data.Aeson.FromJSON PropertyMappingPreview
+instance Data.Aeson.ToJSON PropertyMappingPreview

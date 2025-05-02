@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedSCIMMappingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedSCIMMappingRequest
+instance Show PatchedSCIMMappingRequest
+instance Eq PatchedSCIMMappingRequest
+instance Data.Aeson.FromJSON PatchedSCIMMappingRequest
+instance Data.Aeson.ToJSON PatchedSCIMMappingRequest

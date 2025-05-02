@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.InvitationStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data InvitationStageRequest
+instance Show InvitationStageRequest
+instance Eq InvitationStageRequest
+instance Data.Aeson.FromJSON InvitationStageRequest
+instance Data.Aeson.ToJSON InvitationStageRequest

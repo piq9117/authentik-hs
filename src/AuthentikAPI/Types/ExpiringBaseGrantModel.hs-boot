@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ExpiringBaseGrantModel where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ExpiringBaseGrantModel
+instance Show ExpiringBaseGrantModel
+instance Eq ExpiringBaseGrantModel
+instance Data.Aeson.FromJSON ExpiringBaseGrantModel
+instance Data.Aeson.ToJSON ExpiringBaseGrantModel

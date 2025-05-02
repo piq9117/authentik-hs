@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedUserPlexSourceConnectionList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedUserPlexSourceConnectionList
+instance Show PaginatedUserPlexSourceConnectionList
+instance Eq PaginatedUserPlexSourceConnectionList
+instance Data.Aeson.FromJSON PaginatedUserPlexSourceConnectionList
+instance Data.Aeson.ToJSON PaginatedUserPlexSourceConnectionList

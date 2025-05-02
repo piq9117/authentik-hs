@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedPolicyBindingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedPolicyBindingRequest
+instance Show PatchedPolicyBindingRequest
+instance Eq PatchedPolicyBindingRequest
+instance Data.Aeson.FromJSON PatchedPolicyBindingRequest
+instance Data.Aeson.ToJSON PatchedPolicyBindingRequest

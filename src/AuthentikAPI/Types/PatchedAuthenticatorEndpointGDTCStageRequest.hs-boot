@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedAuthenticatorEndpointGDTCStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedAuthenticatorEndpointGDTCStageRequest
+instance Show PatchedAuthenticatorEndpointGDTCStageRequest
+instance Eq PatchedAuthenticatorEndpointGDTCStageRequest
+instance Data.Aeson.FromJSON PatchedAuthenticatorEndpointGDTCStageRequest
+instance Data.Aeson.ToJSON PatchedAuthenticatorEndpointGDTCStageRequest

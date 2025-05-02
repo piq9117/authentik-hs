@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.LicenseSummaryStatusEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data LicenseSummaryStatusEnum
+instance Show LicenseSummaryStatusEnum
+instance Eq LicenseSummaryStatusEnum
+instance Data.Aeson.FromJSON LicenseSummaryStatusEnum
+instance Data.Aeson.ToJSON LicenseSummaryStatusEnum

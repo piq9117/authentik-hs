@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.OutpostDefaultConfig where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data OutpostDefaultConfig
+instance Show OutpostDefaultConfig
+instance Eq OutpostDefaultConfig
+instance Data.Aeson.FromJSON OutpostDefaultConfig
+instance Data.Aeson.ToJSON OutpostDefaultConfig

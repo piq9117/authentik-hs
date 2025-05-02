@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.OAuth2ProviderSetupURLs where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data OAuth2ProviderSetupURLs
+instance Show OAuth2ProviderSetupURLs
+instance Eq OAuth2ProviderSetupURLs
+instance Data.Aeson.FromJSON OAuth2ProviderSetupURLs
+instance Data.Aeson.ToJSON OAuth2ProviderSetupURLs

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.UserDeleteStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserDeleteStageRequest
+instance Show UserDeleteStageRequest
+instance Eq UserDeleteStageRequest
+instance Data.Aeson.FromJSON UserDeleteStageRequest
+instance Data.Aeson.ToJSON UserDeleteStageRequest

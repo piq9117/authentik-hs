@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedCaptchaStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedCaptchaStageRequest
+instance Show PatchedCaptchaStageRequest
+instance Eq PatchedCaptchaStageRequest
+instance Data.Aeson.FromJSON PatchedCaptchaStageRequest
+instance Data.Aeson.ToJSON PatchedCaptchaStageRequest

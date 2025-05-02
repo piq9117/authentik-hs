@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PermissionAssignRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PermissionAssignRequest
+instance Show PermissionAssignRequest
+instance Eq PermissionAssignRequest
+instance Data.Aeson.FromJSON PermissionAssignRequest
+instance Data.Aeson.ToJSON PermissionAssignRequest

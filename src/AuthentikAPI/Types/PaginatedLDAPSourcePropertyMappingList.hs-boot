@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedLDAPSourcePropertyMappingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedLDAPSourcePropertyMappingList
+instance Show PaginatedLDAPSourcePropertyMappingList
+instance Eq PaginatedLDAPSourcePropertyMappingList
+instance Data.Aeson.FromJSON PaginatedLDAPSourcePropertyMappingList
+instance Data.Aeson.ToJSON PaginatedLDAPSourcePropertyMappingList

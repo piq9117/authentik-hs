@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedGoogleWorkspaceProviderUserList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedGoogleWorkspaceProviderUserList
+instance Show PaginatedGoogleWorkspaceProviderUserList
+instance Eq PaginatedGoogleWorkspaceProviderUserList
+instance Data.Aeson.FromJSON PaginatedGoogleWorkspaceProviderUserList
+instance Data.Aeson.ToJSON PaginatedGoogleWorkspaceProviderUserList

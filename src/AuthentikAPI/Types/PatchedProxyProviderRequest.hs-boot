@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedProxyProviderRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedProxyProviderRequest
+instance Show PatchedProxyProviderRequest
+instance Eq PatchedProxyProviderRequest
+instance Data.Aeson.FromJSON PatchedProxyProviderRequest
+instance Data.Aeson.ToJSON PatchedProxyProviderRequest

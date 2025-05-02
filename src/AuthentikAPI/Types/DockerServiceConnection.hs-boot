@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.DockerServiceConnection where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data DockerServiceConnection
+instance Show DockerServiceConnection
+instance Eq DockerServiceConnection
+instance Data.Aeson.FromJSON DockerServiceConnection
+instance Data.Aeson.ToJSON DockerServiceConnection

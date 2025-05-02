@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedSCIMProviderRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedSCIMProviderRequest
+instance Show PatchedSCIMProviderRequest
+instance Eq PatchedSCIMProviderRequest
+instance Data.Aeson.FromJSON PatchedSCIMProviderRequest
+instance Data.Aeson.ToJSON PatchedSCIMProviderRequest

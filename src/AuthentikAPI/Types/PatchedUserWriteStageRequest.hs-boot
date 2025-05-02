@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedUserWriteStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedUserWriteStageRequest
+instance Show PatchedUserWriteStageRequest
+instance Eq PatchedUserWriteStageRequest
+instance Data.Aeson.FromJSON PatchedUserWriteStageRequest
+instance Data.Aeson.ToJSON PatchedUserWriteStageRequest

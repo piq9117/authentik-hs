@@ -1,0 +1,13 @@
+module AuthentikAPI.Types.MicrosoftEntraProviderGroup where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data MicrosoftEntraProviderGroup
+instance Show MicrosoftEntraProviderGroup
+instance Eq MicrosoftEntraProviderGroup
+instance Data.Aeson.FromJSON MicrosoftEntraProviderGroup
+instance Data.Aeson.ToJSON MicrosoftEntraProviderGroup
+data MicrosoftEntraProviderGroupGroupObj'
+instance Show MicrosoftEntraProviderGroupGroupObj'
+instance Eq MicrosoftEntraProviderGroupGroupObj'
+instance Data.Aeson.FromJSON MicrosoftEntraProviderGroupGroupObj'
+instance Data.Aeson.ToJSON MicrosoftEntraProviderGroupGroupObj'

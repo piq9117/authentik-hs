@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.RadiusProviderPropertyMapping where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data RadiusProviderPropertyMapping
+instance Show RadiusProviderPropertyMapping
+instance Eq RadiusProviderPropertyMapping
+instance Data.Aeson.FromJSON RadiusProviderPropertyMapping
+instance Data.Aeson.ToJSON RadiusProviderPropertyMapping

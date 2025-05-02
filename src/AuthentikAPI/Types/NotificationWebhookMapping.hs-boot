@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.NotificationWebhookMapping where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data NotificationWebhookMapping
+instance Show NotificationWebhookMapping
+instance Eq NotificationWebhookMapping
+instance Data.Aeson.FromJSON NotificationWebhookMapping
+instance Data.Aeson.ToJSON NotificationWebhookMapping

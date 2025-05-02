@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedUserLogoutStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedUserLogoutStageRequest
+instance Show PatchedUserLogoutStageRequest
+instance Eq PatchedUserLogoutStageRequest
+instance Data.Aeson.FromJSON PatchedUserLogoutStageRequest
+instance Data.Aeson.ToJSON PatchedUserLogoutStageRequest

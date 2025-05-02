@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.TransactionPolicyBindingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data TransactionPolicyBindingRequest
+instance Show TransactionPolicyBindingRequest
+instance Eq TransactionPolicyBindingRequest
+instance Data.Aeson.FromJSON TransactionPolicyBindingRequest
+instance Data.Aeson.ToJSON TransactionPolicyBindingRequest

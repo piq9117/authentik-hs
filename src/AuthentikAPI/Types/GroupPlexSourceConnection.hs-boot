@@ -1,0 +1,13 @@
+module AuthentikAPI.Types.GroupPlexSourceConnection where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data GroupPlexSourceConnection
+instance Show GroupPlexSourceConnection
+instance Eq GroupPlexSourceConnection
+instance Data.Aeson.FromJSON GroupPlexSourceConnection
+instance Data.Aeson.ToJSON GroupPlexSourceConnection
+data GroupPlexSourceConnectionSourceObj'
+instance Show GroupPlexSourceConnectionSourceObj'
+instance Eq GroupPlexSourceConnectionSourceObj'
+instance Data.Aeson.FromJSON GroupPlexSourceConnectionSourceObj'
+instance Data.Aeson.ToJSON GroupPlexSourceConnectionSourceObj'

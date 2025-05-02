@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedLDAPSourceRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedLDAPSourceRequest
+instance Show PatchedLDAPSourceRequest
+instance Eq PatchedLDAPSourceRequest
+instance Data.Aeson.FromJSON PatchedLDAPSourceRequest
+instance Data.Aeson.ToJSON PatchedLDAPSourceRequest

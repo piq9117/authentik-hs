@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.SAMLSourcePropertyMapping where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data SAMLSourcePropertyMapping
+instance Show SAMLSourcePropertyMapping
+instance Eq SAMLSourcePropertyMapping
+instance Data.Aeson.FromJSON SAMLSourcePropertyMapping
+instance Data.Aeson.ToJSON SAMLSourcePropertyMapping

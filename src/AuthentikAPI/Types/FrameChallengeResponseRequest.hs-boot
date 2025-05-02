@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.FrameChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data FrameChallengeResponseRequest
+instance Show FrameChallengeResponseRequest
+instance Eq FrameChallengeResponseRequest
+instance Data.Aeson.FromJSON FrameChallengeResponseRequest
+instance Data.Aeson.ToJSON FrameChallengeResponseRequest

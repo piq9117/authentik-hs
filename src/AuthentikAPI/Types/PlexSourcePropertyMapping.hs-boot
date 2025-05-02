@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PlexSourcePropertyMapping where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PlexSourcePropertyMapping
+instance Show PlexSourcePropertyMapping
+instance Eq PlexSourcePropertyMapping
+instance Data.Aeson.FromJSON PlexSourcePropertyMapping
+instance Data.Aeson.ToJSON PlexSourcePropertyMapping

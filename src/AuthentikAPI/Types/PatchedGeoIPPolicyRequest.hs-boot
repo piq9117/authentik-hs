@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedGeoIPPolicyRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedGeoIPPolicyRequest
+instance Show PatchedGeoIPPolicyRequest
+instance Eq PatchedGeoIPPolicyRequest
+instance Data.Aeson.FromJSON PatchedGeoIPPolicyRequest
+instance Data.Aeson.ToJSON PatchedGeoIPPolicyRequest

@@ -1,0 +1,13 @@
+module AuthentikAPI.Types.UserOAuthSourceConnection where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserOAuthSourceConnection
+instance Show UserOAuthSourceConnection
+instance Eq UserOAuthSourceConnection
+instance Data.Aeson.FromJSON UserOAuthSourceConnection
+instance Data.Aeson.ToJSON UserOAuthSourceConnection
+data UserOAuthSourceConnectionSourceObj'
+instance Show UserOAuthSourceConnectionSourceObj'
+instance Eq UserOAuthSourceConnectionSourceObj'
+instance Data.Aeson.FromJSON UserOAuthSourceConnectionSourceObj'
+instance Data.Aeson.ToJSON UserOAuthSourceConnectionSourceObj'

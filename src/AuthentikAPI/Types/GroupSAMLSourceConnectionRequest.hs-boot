@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.GroupSAMLSourceConnectionRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data GroupSAMLSourceConnectionRequest
+instance Show GroupSAMLSourceConnectionRequest
+instance Eq GroupSAMLSourceConnectionRequest
+instance Data.Aeson.FromJSON GroupSAMLSourceConnectionRequest
+instance Data.Aeson.ToJSON GroupSAMLSourceConnectionRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedKubernetesServiceConnectionList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedKubernetesServiceConnectionList
+instance Show PaginatedKubernetesServiceConnectionList
+instance Eq PaginatedKubernetesServiceConnectionList
+instance Data.Aeson.FromJSON PaginatedKubernetesServiceConnectionList
+instance Data.Aeson.ToJSON PaginatedKubernetesServiceConnectionList

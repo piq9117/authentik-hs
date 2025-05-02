@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedKerberosSourceList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedKerberosSourceList
+instance Show PaginatedKerberosSourceList
+instance Eq PaginatedKerberosSourceList
+instance Data.Aeson.FromJSON PaginatedKerberosSourceList
+instance Data.Aeson.ToJSON PaginatedKerberosSourceList

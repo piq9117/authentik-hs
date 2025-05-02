@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedUserPlexSourceConnectionRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedUserPlexSourceConnectionRequest
+instance Show PatchedUserPlexSourceConnectionRequest
+instance Eq PatchedUserPlexSourceConnectionRequest
+instance Data.Aeson.FromJSON PatchedUserPlexSourceConnectionRequest
+instance Data.Aeson.ToJSON PatchedUserPlexSourceConnectionRequest

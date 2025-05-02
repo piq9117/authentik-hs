@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.UserServiceAccountRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserServiceAccountRequest
+instance Show UserServiceAccountRequest
+instance Eq UserServiceAccountRequest
+instance Data.Aeson.FromJSON UserServiceAccountRequest
+instance Data.Aeson.ToJSON UserServiceAccountRequest

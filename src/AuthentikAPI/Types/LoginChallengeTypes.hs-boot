@@ -1,0 +1,9 @@
+module AuthentikAPI.Types.LoginChallengeTypes where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data LoginChallengeTypesVariants
+instance Show LoginChallengeTypesVariants
+instance Eq LoginChallengeTypesVariants
+instance Data.Aeson.FromJSON LoginChallengeTypesVariants
+instance Data.Aeson.ToJSON LoginChallengeTypesVariants
+type LoginChallengeTypes = LoginChallengeTypesVariants

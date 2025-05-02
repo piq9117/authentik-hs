@@ -1,0 +1,9 @@
+module AuthentikAPI.Types.FlowChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data FlowChallengeResponseRequestVariants
+instance Show FlowChallengeResponseRequestVariants
+instance Eq FlowChallengeResponseRequestVariants
+instance Data.Aeson.FromJSON FlowChallengeResponseRequestVariants
+instance Data.Aeson.ToJSON FlowChallengeResponseRequestVariants
+type FlowChallengeResponseRequest = FlowChallengeResponseRequestVariants

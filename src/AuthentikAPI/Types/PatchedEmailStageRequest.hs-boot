@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedEmailStageRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedEmailStageRequest
+instance Show PatchedEmailStageRequest
+instance Eq PatchedEmailStageRequest
+instance Data.Aeson.FromJSON PatchedEmailStageRequest
+instance Data.Aeson.ToJSON PatchedEmailStageRequest

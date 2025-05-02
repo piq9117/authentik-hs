@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ConnectionTokenRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ConnectionTokenRequest
+instance Show ConnectionTokenRequest
+instance Eq ConnectionTokenRequest
+instance Data.Aeson.FromJSON ConnectionTokenRequest
+instance Data.Aeson.ToJSON ConnectionTokenRequest

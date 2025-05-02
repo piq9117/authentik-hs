@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedSAMLProviderRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedSAMLProviderRequest
+instance Show PatchedSAMLProviderRequest
+instance Eq PatchedSAMLProviderRequest
+instance Data.Aeson.FromJSON PatchedSAMLProviderRequest
+instance Data.Aeson.ToJSON PatchedSAMLProviderRequest

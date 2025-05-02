@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedPolicyBindingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedPolicyBindingList
+instance Show PaginatedPolicyBindingList
+instance Eq PaginatedPolicyBindingList
+instance Data.Aeson.FromJSON PaginatedPolicyBindingList
+instance Data.Aeson.ToJSON PaginatedPolicyBindingList

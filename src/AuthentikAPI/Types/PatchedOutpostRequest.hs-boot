@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedOutpostRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedOutpostRequest
+instance Show PatchedOutpostRequest
+instance Eq PatchedOutpostRequest
+instance Data.Aeson.FromJSON PatchedOutpostRequest
+instance Data.Aeson.ToJSON PatchedOutpostRequest

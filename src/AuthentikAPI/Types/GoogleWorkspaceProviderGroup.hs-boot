@@ -1,0 +1,13 @@
+module AuthentikAPI.Types.GoogleWorkspaceProviderGroup where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data GoogleWorkspaceProviderGroup
+instance Show GoogleWorkspaceProviderGroup
+instance Eq GoogleWorkspaceProviderGroup
+instance Data.Aeson.FromJSON GoogleWorkspaceProviderGroup
+instance Data.Aeson.ToJSON GoogleWorkspaceProviderGroup
+data GoogleWorkspaceProviderGroupGroupObj'
+instance Show GoogleWorkspaceProviderGroupGroupObj'
+instance Eq GoogleWorkspaceProviderGroupGroupObj'
+instance Data.Aeson.FromJSON GoogleWorkspaceProviderGroupGroupObj'
+instance Data.Aeson.ToJSON GoogleWorkspaceProviderGroupGroupObj'

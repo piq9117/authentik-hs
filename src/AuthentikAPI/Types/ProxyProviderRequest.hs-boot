@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ProxyProviderRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ProxyProviderRequest
+instance Show ProxyProviderRequest
+instance Eq ProxyProviderRequest
+instance Data.Aeson.FromJSON ProxyProviderRequest
+instance Data.Aeson.ToJSON ProxyProviderRequest

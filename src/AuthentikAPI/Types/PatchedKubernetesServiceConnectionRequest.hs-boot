@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedKubernetesServiceConnectionRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedKubernetesServiceConnectionRequest
+instance Show PatchedKubernetesServiceConnectionRequest
+instance Eq PatchedKubernetesServiceConnectionRequest
+instance Data.Aeson.FromJSON PatchedKubernetesServiceConnectionRequest
+instance Data.Aeson.ToJSON PatchedKubernetesServiceConnectionRequest

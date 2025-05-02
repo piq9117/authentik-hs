@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.EventMatcherPolicyRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data EventMatcherPolicyRequest
+instance Show EventMatcherPolicyRequest
+instance Eq EventMatcherPolicyRequest
+instance Data.Aeson.FromJSON EventMatcherPolicyRequest
+instance Data.Aeson.ToJSON EventMatcherPolicyRequest

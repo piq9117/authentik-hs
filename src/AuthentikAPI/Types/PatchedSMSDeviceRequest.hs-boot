@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedSMSDeviceRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedSMSDeviceRequest
+instance Show PatchedSMSDeviceRequest
+instance Eq PatchedSMSDeviceRequest
+instance Data.Aeson.FromJSON PatchedSMSDeviceRequest
+instance Data.Aeson.ToJSON PatchedSMSDeviceRequest

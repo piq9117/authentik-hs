@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedUserSAMLSourceConnectionList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedUserSAMLSourceConnectionList
+instance Show PaginatedUserSAMLSourceConnectionList
+instance Eq PaginatedUserSAMLSourceConnectionList
+instance Data.Aeson.FromJSON PaginatedUserSAMLSourceConnectionList
+instance Data.Aeson.ToJSON PaginatedUserSAMLSourceConnectionList

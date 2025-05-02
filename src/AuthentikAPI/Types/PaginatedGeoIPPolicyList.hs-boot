@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedGeoIPPolicyList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedGeoIPPolicyList
+instance Show PaginatedGeoIPPolicyList
+instance Eq PaginatedGeoIPPolicyList
+instance Data.Aeson.FromJSON PaginatedGeoIPPolicyList
+instance Data.Aeson.ToJSON PaginatedGeoIPPolicyList

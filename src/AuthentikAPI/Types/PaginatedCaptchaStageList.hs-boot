@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedCaptchaStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedCaptchaStageList
+instance Show PaginatedCaptchaStageList
+instance Eq PaginatedCaptchaStageList
+instance Data.Aeson.FromJSON PaginatedCaptchaStageList
+instance Data.Aeson.ToJSON PaginatedCaptchaStageList

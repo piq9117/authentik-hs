@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedApplicationEntitlementList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedApplicationEntitlementList
+instance Show PaginatedApplicationEntitlementList
+instance Eq PaginatedApplicationEntitlementList
+instance Data.Aeson.FromJSON PaginatedApplicationEntitlementList
+instance Data.Aeson.ToJSON PaginatedApplicationEntitlementList

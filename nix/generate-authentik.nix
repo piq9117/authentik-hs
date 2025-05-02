@@ -7,4 +7,10 @@ pkgs.writeScriptBin "generate-authentik" ''
     --convert-to-camel-case\
     --omit-additional-operation-functions\
     --package-name "authentikapi"
+
+  rm -r ./src
+
+  mv out/* .
+
+  ${pkgs.treefmt}/bin/treefmt
 ''

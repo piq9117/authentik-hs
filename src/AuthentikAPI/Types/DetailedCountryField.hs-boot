@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.DetailedCountryField where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data DetailedCountryField
+instance Show DetailedCountryField
+instance Eq DetailedCountryField
+instance Data.Aeson.FromJSON DetailedCountryField
+instance Data.Aeson.ToJSON DetailedCountryField

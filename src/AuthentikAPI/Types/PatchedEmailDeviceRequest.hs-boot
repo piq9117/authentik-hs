@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedEmailDeviceRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedEmailDeviceRequest
+instance Show PatchedEmailDeviceRequest
+instance Eq PatchedEmailDeviceRequest
+instance Data.Aeson.FromJSON PatchedEmailDeviceRequest
+instance Data.Aeson.ToJSON PatchedEmailDeviceRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedScopeMappingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedScopeMappingList
+instance Show PaginatedScopeMappingList
+instance Eq PaginatedScopeMappingList
+instance Data.Aeson.FromJSON PaginatedScopeMappingList
+instance Data.Aeson.ToJSON PaginatedScopeMappingList

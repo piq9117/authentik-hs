@@ -1,0 +1,13 @@
+module AuthentikAPI.Types.ProxyOutpostConfig where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ProxyOutpostConfig
+instance Show ProxyOutpostConfig
+instance Eq ProxyOutpostConfig
+instance Data.Aeson.FromJSON ProxyOutpostConfig
+instance Data.Aeson.ToJSON ProxyOutpostConfig
+data ProxyOutpostConfigOidcConfiguration'
+instance Show ProxyOutpostConfigOidcConfiguration'
+instance Eq ProxyOutpostConfigOidcConfiguration'
+instance Data.Aeson.FromJSON ProxyOutpostConfigOidcConfiguration'
+instance Data.Aeson.ToJSON ProxyOutpostConfigOidcConfiguration'

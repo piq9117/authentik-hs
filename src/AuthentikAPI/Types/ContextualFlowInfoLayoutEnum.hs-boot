@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ContextualFlowInfoLayoutEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ContextualFlowInfoLayoutEnum
+instance Show ContextualFlowInfoLayoutEnum
+instance Eq ContextualFlowInfoLayoutEnum
+instance Data.Aeson.FromJSON ContextualFlowInfoLayoutEnum
+instance Data.Aeson.ToJSON ContextualFlowInfoLayoutEnum

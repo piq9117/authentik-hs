@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedAuthenticatorValidateStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedAuthenticatorValidateStageList
+instance Show PaginatedAuthenticatorValidateStageList
+instance Eq PaginatedAuthenticatorValidateStageList
+instance Data.Aeson.FromJSON PaginatedAuthenticatorValidateStageList
+instance Data.Aeson.ToJSON PaginatedAuthenticatorValidateStageList

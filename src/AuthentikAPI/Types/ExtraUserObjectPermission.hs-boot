@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ExtraUserObjectPermission where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ExtraUserObjectPermission
+instance Show ExtraUserObjectPermission
+instance Eq ExtraUserObjectPermission
+instance Data.Aeson.FromJSON ExtraUserObjectPermission
+instance Data.Aeson.ToJSON ExtraUserObjectPermission

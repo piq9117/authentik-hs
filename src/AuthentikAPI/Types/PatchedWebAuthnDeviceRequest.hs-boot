@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedWebAuthnDeviceRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedWebAuthnDeviceRequest
+instance Show PatchedWebAuthnDeviceRequest
+instance Eq PatchedWebAuthnDeviceRequest
+instance Data.Aeson.FromJSON PatchedWebAuthnDeviceRequest
+instance Data.Aeson.ToJSON PatchedWebAuthnDeviceRequest

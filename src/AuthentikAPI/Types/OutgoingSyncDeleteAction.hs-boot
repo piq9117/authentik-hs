@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.OutgoingSyncDeleteAction where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data OutgoingSyncDeleteAction
+instance Show OutgoingSyncDeleteAction
+instance Eq OutgoingSyncDeleteAction
+instance Data.Aeson.FromJSON OutgoingSyncDeleteAction
+instance Data.Aeson.ToJSON OutgoingSyncDeleteAction

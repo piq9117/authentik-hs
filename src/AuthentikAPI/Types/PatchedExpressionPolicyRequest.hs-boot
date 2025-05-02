@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedExpressionPolicyRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedExpressionPolicyRequest
+instance Show PatchedExpressionPolicyRequest
+instance Eq PatchedExpressionPolicyRequest
+instance Data.Aeson.FromJSON PatchedExpressionPolicyRequest
+instance Data.Aeson.ToJSON PatchedExpressionPolicyRequest

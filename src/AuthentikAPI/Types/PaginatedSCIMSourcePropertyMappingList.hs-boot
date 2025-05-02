@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedSCIMSourcePropertyMappingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedSCIMSourcePropertyMappingList
+instance Show PaginatedSCIMSourcePropertyMappingList
+instance Eq PaginatedSCIMSourcePropertyMappingList
+instance Data.Aeson.FromJSON PaginatedSCIMSourcePropertyMappingList
+instance Data.Aeson.ToJSON PaginatedSCIMSourcePropertyMappingList

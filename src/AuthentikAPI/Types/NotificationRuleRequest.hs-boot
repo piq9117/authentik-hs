@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.NotificationRuleRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data NotificationRuleRequest
+instance Show NotificationRuleRequest
+instance Eq NotificationRuleRequest
+instance Data.Aeson.FromJSON NotificationRuleRequest
+instance Data.Aeson.ToJSON NotificationRuleRequest

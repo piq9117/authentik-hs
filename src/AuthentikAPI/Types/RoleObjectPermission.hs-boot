@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.RoleObjectPermission where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data RoleObjectPermission
+instance Show RoleObjectPermission
+instance Eq RoleObjectPermission
+instance Data.Aeson.FromJSON RoleObjectPermission
+instance Data.Aeson.ToJSON RoleObjectPermission

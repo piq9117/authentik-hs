@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.NotConfiguredActionEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data NotConfiguredActionEnum
+instance Show NotConfiguredActionEnum
+instance Eq NotConfiguredActionEnum
+instance Data.Aeson.FromJSON NotConfiguredActionEnum
+instance Data.Aeson.ToJSON NotConfiguredActionEnum

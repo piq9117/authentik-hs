@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedPropertyMappingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedPropertyMappingList
+instance Show PaginatedPropertyMappingList
+instance Eq PaginatedPropertyMappingList
+instance Data.Aeson.FromJSON PaginatedPropertyMappingList
+instance Data.Aeson.ToJSON PaginatedPropertyMappingList

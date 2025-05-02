@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PasswordExpiryPolicyRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PasswordExpiryPolicyRequest
+instance Show PasswordExpiryPolicyRequest
+instance Eq PasswordExpiryPolicyRequest
+instance Data.Aeson.FromJSON PasswordExpiryPolicyRequest
+instance Data.Aeson.ToJSON PasswordExpiryPolicyRequest

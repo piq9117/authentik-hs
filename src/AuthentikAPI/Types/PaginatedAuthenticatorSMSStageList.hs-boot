@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedAuthenticatorSMSStageList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedAuthenticatorSMSStageList
+instance Show PaginatedAuthenticatorSMSStageList
+instance Eq PaginatedAuthenticatorSMSStageList
+instance Data.Aeson.FromJSON PaginatedAuthenticatorSMSStageList
+instance Data.Aeson.ToJSON PaginatedAuthenticatorSMSStageList

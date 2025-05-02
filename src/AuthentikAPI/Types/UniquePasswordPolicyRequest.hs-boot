@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.UniquePasswordPolicyRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UniquePasswordPolicyRequest
+instance Show UniquePasswordPolicyRequest
+instance Eq UniquePasswordPolicyRequest
+instance Data.Aeson.FromJSON UniquePasswordPolicyRequest
+instance Data.Aeson.ToJSON UniquePasswordPolicyRequest

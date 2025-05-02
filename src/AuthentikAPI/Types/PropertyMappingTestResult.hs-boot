@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PropertyMappingTestResult where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PropertyMappingTestResult
+instance Show PropertyMappingTestResult
+instance Eq PropertyMappingTestResult
+instance Data.Aeson.FromJSON PropertyMappingTestResult
+instance Data.Aeson.ToJSON PropertyMappingTestResult

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.FlowStageBindingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data FlowStageBindingRequest
+instance Show FlowStageBindingRequest
+instance Eq FlowStageBindingRequest
+instance Data.Aeson.FromJSON FlowStageBindingRequest
+instance Data.Aeson.ToJSON FlowStageBindingRequest

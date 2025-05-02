@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedLDAPProviderList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedLDAPProviderList
+instance Show PaginatedLDAPProviderList
+instance Eq PaginatedLDAPProviderList
+instance Data.Aeson.FromJSON PaginatedLDAPProviderList
+instance Data.Aeson.ToJSON PaginatedLDAPProviderList

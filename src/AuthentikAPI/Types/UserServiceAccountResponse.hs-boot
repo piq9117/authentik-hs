@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.UserServiceAccountResponse where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserServiceAccountResponse
+instance Show UserServiceAccountResponse
+instance Eq UserServiceAccountResponse
+instance Data.Aeson.FromJSON UserServiceAccountResponse
+instance Data.Aeson.ToJSON UserServiceAccountResponse

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedEventMatcherPolicyList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedEventMatcherPolicyList
+instance Show PaginatedEventMatcherPolicyList
+instance Eq PaginatedEventMatcherPolicyList
+instance Data.Aeson.FromJSON PaginatedEventMatcherPolicyList
+instance Data.Aeson.ToJSON PaginatedEventMatcherPolicyList

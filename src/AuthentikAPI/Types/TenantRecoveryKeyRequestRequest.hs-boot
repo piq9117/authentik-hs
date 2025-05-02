@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.TenantRecoveryKeyRequestRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data TenantRecoveryKeyRequestRequest
+instance Show TenantRecoveryKeyRequestRequest
+instance Eq TenantRecoveryKeyRequestRequest
+instance Data.Aeson.FromJSON TenantRecoveryKeyRequestRequest
+instance Data.Aeson.ToJSON TenantRecoveryKeyRequestRequest

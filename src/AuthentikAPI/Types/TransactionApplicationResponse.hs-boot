@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.TransactionApplicationResponse where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data TransactionApplicationResponse
+instance Show TransactionApplicationResponse
+instance Eq TransactionApplicationResponse
+instance Data.Aeson.FromJSON TransactionApplicationResponse
+instance Data.Aeson.ToJSON TransactionApplicationResponse

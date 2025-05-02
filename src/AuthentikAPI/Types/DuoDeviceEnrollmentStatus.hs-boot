@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.DuoDeviceEnrollmentStatus where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data DuoDeviceEnrollmentStatus
+instance Show DuoDeviceEnrollmentStatus
+instance Eq DuoDeviceEnrollmentStatus
+instance Data.Aeson.FromJSON DuoDeviceEnrollmentStatus
+instance Data.Aeson.ToJSON DuoDeviceEnrollmentStatus

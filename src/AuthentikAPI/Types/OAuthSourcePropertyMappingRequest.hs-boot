@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.OAuthSourcePropertyMappingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data OAuthSourcePropertyMappingRequest
+instance Show OAuthSourcePropertyMappingRequest
+instance Eq OAuthSourcePropertyMappingRequest
+instance Data.Aeson.FromJSON OAuthSourcePropertyMappingRequest
+instance Data.Aeson.ToJSON OAuthSourcePropertyMappingRequest

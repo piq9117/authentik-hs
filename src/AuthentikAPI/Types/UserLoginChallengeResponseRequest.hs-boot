@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.UserLoginChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserLoginChallengeResponseRequest
+instance Show UserLoginChallengeResponseRequest
+instance Eq UserLoginChallengeResponseRequest
+instance Data.Aeson.FromJSON UserLoginChallengeResponseRequest
+instance Data.Aeson.ToJSON UserLoginChallengeResponseRequest

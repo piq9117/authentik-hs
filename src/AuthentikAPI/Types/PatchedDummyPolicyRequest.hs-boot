@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedDummyPolicyRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedDummyPolicyRequest
+instance Show PatchedDummyPolicyRequest
+instance Eq PatchedDummyPolicyRequest
+instance Data.Aeson.FromJSON PatchedDummyPolicyRequest
+instance Data.Aeson.ToJSON PatchedDummyPolicyRequest

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedFlowStageBindingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedFlowStageBindingList
+instance Show PaginatedFlowStageBindingList
+instance Eq PaginatedFlowStageBindingList
+instance Data.Aeson.FromJSON PaginatedFlowStageBindingList
+instance Data.Aeson.ToJSON PaginatedFlowStageBindingList

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedMicrosoftEntraProviderMappingRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedMicrosoftEntraProviderMappingRequest
+instance Show PatchedMicrosoftEntraProviderMappingRequest
+instance Eq PatchedMicrosoftEntraProviderMappingRequest
+instance Data.Aeson.FromJSON PatchedMicrosoftEntraProviderMappingRequest
+instance Data.Aeson.ToJSON PatchedMicrosoftEntraProviderMappingRequest

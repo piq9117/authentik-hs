@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.OAuthDeviceCodeFinishChallenge where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data OAuthDeviceCodeFinishChallenge
+instance Show OAuthDeviceCodeFinishChallenge
+instance Eq OAuthDeviceCodeFinishChallenge
+instance Data.Aeson.FromJSON OAuthDeviceCodeFinishChallenge
+instance Data.Aeson.ToJSON OAuthDeviceCodeFinishChallenge

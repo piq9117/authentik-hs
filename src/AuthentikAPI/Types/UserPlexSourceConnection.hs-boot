@@ -1,0 +1,13 @@
+module AuthentikAPI.Types.UserPlexSourceConnection where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data UserPlexSourceConnection
+instance Show UserPlexSourceConnection
+instance Eq UserPlexSourceConnection
+instance Data.Aeson.FromJSON UserPlexSourceConnection
+instance Data.Aeson.ToJSON UserPlexSourceConnection
+data UserPlexSourceConnectionSourceObj'
+instance Show UserPlexSourceConnectionSourceObj'
+instance Eq UserPlexSourceConnectionSourceObj'
+instance Data.Aeson.FromJSON UserPlexSourceConnectionSourceObj'
+instance Data.Aeson.ToJSON UserPlexSourceConnectionSourceObj'

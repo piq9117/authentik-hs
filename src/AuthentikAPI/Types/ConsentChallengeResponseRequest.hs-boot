@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.ConsentChallengeResponseRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data ConsentChallengeResponseRequest
+instance Show ConsentChallengeResponseRequest
+instance Eq ConsentChallengeResponseRequest
+instance Data.Aeson.FromJSON ConsentChallengeResponseRequest
+instance Data.Aeson.ToJSON ConsentChallengeResponseRequest

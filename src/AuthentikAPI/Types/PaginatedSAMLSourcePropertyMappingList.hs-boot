@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedSAMLSourcePropertyMappingList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedSAMLSourcePropertyMappingList
+instance Show PaginatedSAMLSourcePropertyMappingList
+instance Eq PaginatedSAMLSourcePropertyMappingList
+instance Data.Aeson.FromJSON PaginatedSAMLSourcePropertyMappingList
+instance Data.Aeson.ToJSON PaginatedSAMLSourcePropertyMappingList

@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PatchedGroupLDAPSourceConnectionRequest where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PatchedGroupLDAPSourceConnectionRequest
+instance Show PatchedGroupLDAPSourceConnectionRequest
+instance Eq PatchedGroupLDAPSourceConnectionRequest
+instance Data.Aeson.FromJSON PatchedGroupLDAPSourceConnectionRequest
+instance Data.Aeson.ToJSON PatchedGroupLDAPSourceConnectionRequest

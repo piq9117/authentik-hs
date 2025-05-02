@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.RedirectStageModeEnum where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data RedirectStageModeEnum
+instance Show RedirectStageModeEnum
+instance Eq RedirectStageModeEnum
+instance Data.Aeson.FromJSON RedirectStageModeEnum
+instance Data.Aeson.ToJSON RedirectStageModeEnum

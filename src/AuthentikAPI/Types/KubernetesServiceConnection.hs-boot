@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.KubernetesServiceConnection where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data KubernetesServiceConnection
+instance Show KubernetesServiceConnection
+instance Eq KubernetesServiceConnection
+instance Data.Aeson.FromJSON KubernetesServiceConnection
+instance Data.Aeson.ToJSON KubernetesServiceConnection

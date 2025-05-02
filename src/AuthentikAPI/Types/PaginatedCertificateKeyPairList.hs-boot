@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedCertificateKeyPairList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedCertificateKeyPairList
+instance Show PaginatedCertificateKeyPairList
+instance Eq PaginatedCertificateKeyPairList
+instance Data.Aeson.FromJSON PaginatedCertificateKeyPairList
+instance Data.Aeson.ToJSON PaginatedCertificateKeyPairList

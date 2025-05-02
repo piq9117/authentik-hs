@@ -1,0 +1,8 @@
+module AuthentikAPI.Types.PaginatedSCIMProviderGroupList where
+import qualified Data.Aeson
+import qualified AuthentikAPI.Common
+data PaginatedSCIMProviderGroupList
+instance Show PaginatedSCIMProviderGroupList
+instance Eq PaginatedSCIMProviderGroupList
+instance Data.Aeson.FromJSON PaginatedSCIMProviderGroupList
+instance Data.Aeson.ToJSON PaginatedSCIMProviderGroupList
