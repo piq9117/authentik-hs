@@ -24,16 +24,22 @@
             }));
           };
         };
-        init-project = final.writeScriptBin "init-project" ''
-          ${final.hsPkgs.cabal-install}/bin/cabal init --non-interactive
-        '';
+        authentik-hs = final.hsPkgs.callCabal2nix "authentik-hs" ./. { };
       };
+      packages = forAllSystems (system:
+        let
+          pkgs = nixpkgsFor.${system};
+        in
+        {
+          authentik-hs = pkgs.authentik-hs;
+        });
 
       devShells = forAllSystems (system:
         let
           pkgs = nixpkgsFor.${system};
           generate-authentik = import ./nix/generate-authentik.nix { inherit pkgs; };
           fetch-schema = import ./nix/fetch-schema.nix { inherit pkgs; };
+          push-to-cache = import ./nix/push-to-cache.nix { inherit pkgs; cache-name = builtins.getEnv "CACHE_NAME"; };
           libs = with pkgs; [
             zlib
           ];
@@ -49,11 +55,14 @@
               treefmt
               nixpkgs-fmt
               hsPkgs.cabal-fmt
-              init-project
               generate-authentik
               fetch-schema
+              push-to-cache
             ] ++ libs;
-            shellHook = "export PS1='[$PWD]\n❄ '";
+            # shellHook = "";
+            shellHook = ''
+              export PS1='[$PWD]\n❄ '
+            '';
             LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath libs;
           };
         });
